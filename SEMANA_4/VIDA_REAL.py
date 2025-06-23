@@ -2,7 +2,7 @@ class Producto: #Creamos una clase producto
     def __init__(self, nombre, precio, cantidad):  #Creamos un constructor y colocamos los atributos que necesitaremos
         self.nombre = nombre
         self.precio = precio
-        self.cantidad = cantidad
+        self.cantidad = cantidad  #Creamos los self
 
 
     #Creamos un metodo que nos va mostrar el nombre del producto y el precio
